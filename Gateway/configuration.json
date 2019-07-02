@@ -1,7 +1,7 @@
 {
     "ReRoutes": [
       {
-        "DownstreamPathTemplate": "/venda/",
+        "DownstreamPathTemplate": "/vendas/",
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
@@ -9,11 +9,11 @@
             "Port": 3003
           }
         ],
-        "UpstreamPathTemplate": "/venda/",
+        "UpstreamPathTemplate": "/vendas/",
         "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
       },
       {
-        "DownstreamPathTemplate": "/venda/{everything}",
+        "DownstreamPathTemplate": "/vendas/{everything}",
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
@@ -21,7 +21,7 @@
             "Port": 3003
           }
         ],
-        "UpstreamPathTemplate": "/venda/{everything}",
+        "UpstreamPathTemplate": "/vendas/{everything}",
         "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete", "Options" ]
       },
       {

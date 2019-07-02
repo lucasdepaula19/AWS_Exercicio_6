@@ -11,12 +11,10 @@ exports.getById = (req, res, next) => {
 };
 
 
-
 exports.post = (req, res, next) => {
     produto.push(req.body);
     res.status(201).send(produto);
 };
-
 
 exports.put = (req, res, next) => {
     
